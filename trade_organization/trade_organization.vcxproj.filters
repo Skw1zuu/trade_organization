@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a2421f7f-aea0-4304-8cd5-f2dfe6935c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user_interface_layer">
+      <UniqueIdentifier>{45be97ea-ddbc-4589-b849-b3e85d0896c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities">
+      <UniqueIdentifier>{828a5b55-5367-47f2-a329-45cbfeb3b216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain_logic_layer">
+      <UniqueIdentifier>{013120ad-a05e-47d4-b13d-806a50753600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data_layer">
+      <UniqueIdentifier>{ff8ac699-eadd-4d47-963f-96630708196e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="str_util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="date.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="get_turnover_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="help_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="add_sale_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="add_seller_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="add_supplier_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="add_supply_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="add_trade_point_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="command_initializer.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="console_app.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="exit_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_customers_by_product_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_customers_by_tp_product_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_prices_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_profitability_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_salaries_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_sales_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_sales_efficiency_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_seller_performance_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_stock_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_suppliers_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_supply_by_number_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_supply_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="get_top_customers_command.cpp">
+      <Filter>user_interface_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="sale.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="section.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="seller.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="store.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="supplier.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="supply.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="trade_point.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="customer.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="department_store.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="kiosk.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="product_order.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="customer_manager.cpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="sale_manager.cpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="seller_manager.cpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="supplier_manager.cpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="supply_manager.cpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="trade_point_manager.cpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_product_order_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_product_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_sale_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_section_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_seller_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_supplier_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_supply_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_trade_point_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="file_customer_repository.cpp">
+      <Filter>data_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="str_util.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="date.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="get_turnover_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="help_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="util.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="add_sale_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="add_seller_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="add_supplier_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="add_supply_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="add_trade_point_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="command_initializer.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="console_app.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="exit_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_customers_by_product_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_customers_by_tp_product_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_prices_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_profitability_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_salaries_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_sales_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_sales_efficiency_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_seller_performance_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_stock_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_suppliers_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_supply_by_number_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_supply_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="get_top_customers_command.hpp">
+      <Filter>user_interface_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="sale.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="section.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="seller.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="store.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="supplier.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="supply.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="trade_point.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="customer.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="department_store.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="kiosk.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="product.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="product_order.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="customer_manager.hpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="sale_manager.hpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="seller_manager.hpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="supplier_manager.hpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="supply_manager.hpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="trade_point_manager.hpp">
+      <Filter>domain_logic_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_customer_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_product_order_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_product_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_repository_base.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_sale_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_section_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_seller_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_supplier_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_supply_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="file_trade_point_repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="repository.hpp">
+      <Filter>data_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="input.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

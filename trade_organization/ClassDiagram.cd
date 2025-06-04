@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="add_sale_command">
+    <Position X="15.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>add_sale_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="add_seller_command">
+    <Position X="4.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAkAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>add_seller_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="add_supplier_command">
+    <Position X="12" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>add_supplier_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="add_supply_command">
+    <Position X="2" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>add_supply_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="add_trade_point_command">
+    <Position X="9.25" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>add_trade_point_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="command">
+    <Position X="17.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="command_intializer">
+    <Position X="20.75" Y="11" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACBAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>command_initializer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="console_app">
+    <Position X="21" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQwDAAgAIAACBAAAAAAAAAAEIBCEABAAQAgAAAAE=</HashCode>
+      <FileName>console_app.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="exit_command">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="18.5" Y="7" />
+        <Point X="18.5" Y="6.486" />
+        <Point X="19.75" Y="6.486" />
+        <Point X="19.75" Y="2.366" />
+        <Point X="19.25" Y="2.366" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exit_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_customers_by_product_command">
+    <Position X="7" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_customers_by_product_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_customers_by_tp_product_command">
+    <Position X="14.25" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_customers_by_tp_product_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_prices_command">
+    <Position X="4.5" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_prices_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_profitability_command">
+    <Position X="12" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_profitability_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_salaries_command">
+    <Position X="1.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_salaries_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_sales_command">
+    <Position X="6.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_sales_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_sales_efficiency_command">
+    <Position X="10.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_sales_efficiency_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_seller_performance_command">
+    <Position X="1.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_seller_performance_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_stock_command">
+    <Position X="10" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_stock_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_suppliers_command">
+    <Position X="17.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_suppliers_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_supply_by_number_command">
+    <Position X="6.5" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_supply_by_number_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_supply_command">
+    <Position X="14.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_supply_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_top_customers_command">
+    <Position X="4" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>get_top_customers_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="get_turnover_command">
+    <Position X="8.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>get_turnover_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="help_command">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="command" ManuallyRouted="true">
+      <Path>
+        <Point X="18.5" Y="7" />
+        <Point X="18.5" Y="6.534" />
+        <Point X="19.775" Y="6.534" />
+        <Point X="19.775" Y="3.927" />
+        <Point X="14" Y="3.927" />
+        <Point X="14" Y="3.627" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABIAAAA=</HashCode>
+      <FileName>help_command.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="customer">
+    <Position X="8.25" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQABFAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>customer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="departament_store">
+    <Position X="21.25" Y="25.75" Width="2.5" />
+    <InheritanceLine Type="trade_point" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.5" Y="27.062" />
+        <Point X="21.25" Y="27.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAgAABAAAAAAAAAIAAQAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>department_store.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="entity">
+    <Position X="9.75" Y="22.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAUAA=</HashCode>
+      <FileName>entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kiosk">
+    <Position X="15.5" Y="24" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kiosk.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="product">
+    <Position X="3.75" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgAAAAQAAAAAQAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>product.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="product_order">
+    <Position X="6.25" Y="22.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAABBAEQAAAAAAABAAAAAAAQAAEAAAA=</HashCode>
+      <FileName>product_order.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sale">
+    <Position X="13.5" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAgAACAAAAAAAAAIAAAAiCAAAAAEAAABAAAAAQ=</HashCode>
+      <FileName>sale.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="section">
+    <Position X="15.75" Y="25.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAAAQAAAAEAAAAAAAAAIAAAYAQAAAAAAAAAAAA=</HashCode>
+      <FileName>section.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="seller">
+    <Position X="4" Y="21.5" Width="1.75" />
+    <InheritanceLine Type="entity" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="10.625" Y="24.69" />
+        <Point X="10.625" Y="25.375" />
+        <Point X="5.25" Y="25.375" />
+        <Point X="5.25" Y="24.915" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAIAQAAFIAAAAEAAAAIAAAAAAAAAAAABAAAAAQAAAA=</HashCode>
+      <FileName>seller.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="store">
+    <Position X="21.25" Y="23.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>store.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="supplier">
+    <Position X="6" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAIAAAAAAACACAAAAAAAAAAAAAAABIAAgAQ=</HashCode>
+      <FileName>supplier.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="supply">
+    <Position X="11" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAEAAAAAAAAAAAARAAIAAAAABAAAAAAAAQABABAAAQ=</HashCode>
+      <FileName>supply.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="trade_point">
+    <Position X="18.5" Y="23.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAABABIAQQEAAAAQQigAAAIAAAAAAAABIAQBCU=</HashCode>
+      <FileName>trade_point.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="customer_manager">
+    <Position X="27.25" Y="15" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABAYAACAAAAAAAFAAACAACFAAAAAAgAAQAA=</HashCode>
+      <FileName>customer_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sale_manager">
+    <Position X="27.25" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>iAAAACgAAAAIAACAAAAAEAAAAAACBCEAAAAAAgAAABA=</HashCode>
+      <FileName>sale_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="seller_manager">
+    <Position X="23.75" Y="13.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAACAAAAAAAQAAAACDgUAACAAAgaAAAA=</HashCode>
+      <FileName>seller_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="supplier_manager">
+    <Position X="24.25" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IABIAAAAAAAAAACAAAAAAAAAAAAIACAEBAAAAAAAAAA=</HashCode>
+      <FileName>supplier_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="supply_manager">
+    <Position X="30.75" Y="16.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAACAAAAQAAAAAAAIACAABIIAEQAAAAA=</HashCode>
+      <FileName>supply_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="trade_point_manager">
+    <Position X="30.75" Y="10.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgACAgAAAACAAAKAAgQAAABAAIQCBCEARAgAAgFEAAE=</HashCode>
+      <FileName>trade_point_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_customer_repository">
+    <Position X="9" Y="18.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAQAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>file_customer_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_product_order_repository">
+    <Position X="13.75" Y="18.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAEAIAAAgAAAAAAAA=</HashCode>
+      <FileName>file_product_order_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_product_repository">
+    <Position X="14.25" Y="13.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAgIAAAgAAAAAAAA=</HashCode>
+      <FileName>file_product_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_repository_base&lt;T&gt;">
+    <Position X="9" Y="13.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAAICJAAAAAAAAAKAAAAAAAAIAEAgAAAAGAAA=</HashCode>
+      <FileName>file_repository_base.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_sale_repository">
+    <Position X="4.5" Y="13.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>file_sale_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_section_repository">
+    <Position X="4.5" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAgAAAACAAA=</HashCode>
+      <FileName>file_section_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_seller_repository">
+    <Position X="4.5" Y="18.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAIEAAgAAAAAAAA=</HashCode>
+      <FileName>file_seller_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_supplier_repository">
+    <Position X="6.75" Y="18.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAwAACAAAAA=</HashCode>
+      <FileName>file_supplier_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_supply_repository">
+    <Position X="11.5" Y="18.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAgAAAQAAAA=</HashCode>
+      <FileName>file_supply_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="file_trade_point_repository">
+    <Position X="14" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAIAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>file_trade_point_repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="repository&lt;T&gt;">
+    <Position X="12" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>repository.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
