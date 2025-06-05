@@ -37,7 +37,7 @@ void get_prices_command::execute()
             string trade_point_type;
             if (opt_type == 0)
                 trade_point_type = "KIOSK";
-            if (opt_type == 1)
+            else if (opt_type == 1)
                 trade_point_type = "STORE";
             else if (opt_type == 2)
                 trade_point_type = "D_STORE";
